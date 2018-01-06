@@ -12,10 +12,11 @@ de datos, los aspectos a tener en cuenta son los siguientes:
 </dependency>
 ```
 2. Crear un fichero con extensión .xlsx (Excel 2007 en adelante) con el siguiente formato:
+```
 | Nombre   | Codigo |
 |----------|--------|
 | Iphone X | XXXX   |
 | PS4      | JUYT   |
-
+```
 3. La logica para el recorrido se encuentra en el Servicio *ReadExcelFileService*.
 4. Correr el proyecto y verificar la base de datos.
