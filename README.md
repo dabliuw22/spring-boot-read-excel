@@ -13,7 +13,7 @@ de datos, los aspectos a tener en cuenta son los siguientes:
 ```
 2. Crear un fichero con extensión .xlsx (Excel 2007 en adelante) con el siguiente formato:
 | Nombre | Codigo  |
-| ------ |---------|
+| ------ |--------:|
 |Iphone X| IIIOP   |
 |  PS4   | ASSSO   |
 
