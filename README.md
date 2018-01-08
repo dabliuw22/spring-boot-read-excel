@@ -19,4 +19,5 @@ de datos, los aspectos a tener en cuenta son los siguientes:
 | PS4      | JUYT   |
 ```
 3. La logica para el recorrido se encuentra en el Servicio *ReadExcelFileService*.
-4. Correr el proyecto y verificar la base de datos.
+4. Crear un folder en la raiz del proyecto de nombre *files*, que será donde se almacenaran los ficheros.
+5. Correr el proyecto y verificar la base de datos.
