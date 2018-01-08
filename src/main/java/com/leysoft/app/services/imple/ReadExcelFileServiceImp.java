@@ -45,8 +45,9 @@ public class ReadExcelFileServiceImp implements ReadExcelFileService {
 		Iterator<Row> filas = hoja.iterator();
 		int k = 0;
 		while(filas.hasNext()) {
+			Row row = filas.next();
 			if(k > 0) {
-				List<Cell> celdas = IteratorUtils.toList(filas.next().iterator());
+				List<Cell> celdas = IteratorUtils.toList(row.iterator());
 				int c = 0;
 				Producto producto = new Producto();
 				for(Cell celda: celdas) {
